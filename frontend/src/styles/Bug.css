@@ -1,0 +1,34 @@
+.header {
+  color: #e8568c;
+  font-weight: bold;
+}
+
+.body {
+  display: flex;
+}
+
+.rightSide {
+  flex: 1;
+}
+
+.leftSide {
+  flex: 3;
+}
+
+.people {
+  text-align: left;
+}
+
+.dates {
+  text-align: left;
+}
+
+.details {
+  display: flex;
+}
+.details > p {
+  margin: auto;
+}
+
+.description {
+}
