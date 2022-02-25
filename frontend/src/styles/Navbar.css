@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.button {
+  margin: auto;
+}
+
+.home {
+  font-weight: bold;
+  color: #e8568c;
+}

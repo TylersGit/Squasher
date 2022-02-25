@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import { BugPriority, BugStatus } from "../interfaces/BugInterfaces";
 import "../styles/App.css";
 import Bug from "./Bug";
+import Navbar from "./Navbar";
 
 const testBug = {
   id: 3,
@@ -35,8 +36,11 @@ const testBug = {
 
 const App: FC = () => {
   return (
-    <div className="App">
-      <Bug {...testBug}></Bug>
+    <div>
+      <Navbar />
+      <div className="App">
+        <Bug {...testBug}></Bug>
+      </div>
     </div>
   );
 };
