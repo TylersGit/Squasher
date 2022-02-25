@@ -9,7 +9,7 @@ export default interface BugProps {
   priority: BugPriority;
   created: Date | string;
   updated: Date | string;
-  closed?: Date | null;
+  closed?: Date | string | null;
   owner: string;
   reporter: string;
   comments: Comment[];
